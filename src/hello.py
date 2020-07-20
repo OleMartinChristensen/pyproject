@@ -11,7 +11,7 @@ def puss(name="Sonja"):
 
 
 def main():
-    Hello()
+    hello_world()
     puss
 
 
