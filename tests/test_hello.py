@@ -16,3 +16,10 @@ def test_puss(capsys):
     hello.puss()
     out, _ = capsys.readouterr()
     assert out == "puss Sonja\n"
+
+
+def test_puss_argument(capsys):
+    hello.puss("Lobster")
+    out, _ = capsys.readouterr()
+    assert out == "puss Lobster\n"
+
