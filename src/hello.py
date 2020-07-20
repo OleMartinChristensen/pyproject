@@ -6,7 +6,7 @@ def hello_world():
 
 def puss(name="Sonja"):
     "prints puss + name"
-    print("puss" + name)
+    print("puss " + name)
     return
 
 
