@@ -11,3 +11,8 @@ def test_hello_world(capsys):
     out, _ = capsys.readouterr()
     assert out == "Hello World\n"
 
+
+def test_puss(capsys):
+    hello.puss()
+    out, _ = capsys.readouterr()
+    assert out == "puss sonja\n"
